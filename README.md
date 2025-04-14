@@ -25,3 +25,17 @@ Then in the url, it should say something like this
 all that we need is the part after ```/channel/```
 
 __Our "CHANNEL_ID" variable in the script is now complete! TADA!__
+
+## how to run
+
+Install ```node.js``` on a server, it would be best to use a 24/7 server. For me in my experience, I just used an old DELL Inspiron laptop with an Intel Core i3 7th Generation, with a removed battery and Ubuntu installed
+
+Then run the command ```node ./dhyt.mjs```
+
+```Markdown
+WARNING: WHEN RUNNING THE COMMAND, IT WILL SAY THAT IMPORTING JSON MODULE IS AN EXPERIMENTAL FEATURE, DO NOT WORRY, IF THIS MAKE THE CODE BREAK, CREATE AN ISSUE
+```
+
+```Markdown
+WARNING: THIS SCRIPT POLLS THE SUBSCRIBER COUNT AND NEXT MILESTONE EVERY 10 SECONDS, THIS WAS MADE SO THAT IT DOESN'T OVERFLOW THE DAILY QUOTA
+```
